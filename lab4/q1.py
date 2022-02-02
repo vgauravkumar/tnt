@@ -6,4 +6,6 @@ def showlarge(s):
 
 print("Enter string: ", end="")
 myStr = input()
+print()
+print("Strings with char count more than 4 are:")
 showlarge(myStr)
