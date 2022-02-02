@@ -3,5 +3,7 @@ def showlarge(s):
     for i in l:
         if len(i) > 4:
             print(i)
-s = input()
-showlarge(s)
+
+print("Enter string: ", end="")
+myStr = input()
+showlarge(myStr)

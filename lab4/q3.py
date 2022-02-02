@@ -1,7 +1,7 @@
 def letterCount(myStr, letter):
     count = 0
     for i in myStr:
-        if letter == i:
+        if letter.upper() == i or letter.lower() == i:
             count = count + 1
     return count
 
